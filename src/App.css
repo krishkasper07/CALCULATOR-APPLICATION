@@ -1,5 +1,6 @@
+
 .calc{
-  height: 50vh;
+  height: 57vh;
   width: 20vw;
   background-color: rgb(7, 0, 0);
   padding: 10px;
@@ -8,12 +9,19 @@
 
 .screen{
   background: #262834;
-  width: 200px;
+  width: 250px;
   height: 8vh;
-  margin: auto;
+  margin:10px;
+  border-radius: 10px;
   color: white;
   border-radius: 10px;
-  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction:row-reverse;
+  align-items: center;
+  align-content: flex-end;
+  font-size: 20px;
+  font-family:cursive;
 }
 
 .keypad{
@@ -23,17 +31,23 @@
   justify-content: space-between;
 }
 
-
-button{
-  border-radius: 5px;
-  height: 6vh;
-  width: 3vw;
-  background:#262834;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  margin: 10px;
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:100;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius:50%;
+    height: 6vh;
+    width: 3vw;
+    background:#262834;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-size: 24px;
+    margin: 8px;
+    
 }
 
 .equal{
