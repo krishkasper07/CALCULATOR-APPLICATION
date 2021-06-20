@@ -9,7 +9,7 @@
 
 .screen{
   background: #262834;
-  width: 250px;
+  width: 18vw;
   height: 8vh;
   margin:10px;
   border-radius: 10px;
@@ -52,4 +52,20 @@
 
 .equal{
   background-color: coral;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  background-color: green;
+  width: 100%;
+  margin-top: 0;
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  background-color: rgb(213, 132, 238);
 }
