@@ -20,7 +20,7 @@ ReactDOM.render(
     <Calculator/>
     </div>
     <br/>
-    <h1> CACULATOR USING CLASS COMPONENT </h1>
+    <h1> CACULATOR USING FUNCTIONAL COMPONENT </h1>
     <div className='main'>
     <Calc/>
     </div>
